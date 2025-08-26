@@ -14,7 +14,7 @@ This repository contains two versions of the same app:
 This repository contains **two implementations of the same app**:
 
 - **Static Version** → [static/](./static)  
-- **Dynamic Version** → [dynamic/](./dynamic)  
+- **Dynamic Version** → [dynamic/](./dynamic_firebase)  
 
 The **static version** works with hardcoded/local data, while the **dynamic version** is powered by Firestore/Firebase (or API) for real-time content.
 
