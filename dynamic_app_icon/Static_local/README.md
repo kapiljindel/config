@@ -40,15 +40,15 @@ And set the default app icon:
 <application android:icon="@drawable/icon1" android:label="YourAppName"  ... >
 ```
 ### 3. Update Package Name in MainActivity.kt
-```
-Navigate to: android/app/src/main/kotlin/com/yourcompany/yourapp/MainActivity.kt
+
+Navigate to: ```android/app/src/main/kotlin/com/yourcompany/yourapp/MainActivity.kt```
 
 And update the package declaration at the top:
-package com.yourcompany.yourapp
+✅ package com.yourcompany.yourapp
 
 Make sure this matches your app’s actual package name.
 
-```
+
 ### 4. Switch Icons in Flutter Page (UI Logic)
 
 Create a UI screen in Flutter where the user can choose which icon to use.
